@@ -1,0 +1,167 @@
+* { 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 220px;
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+header h1{
+    font-size: 50px;
+}
+header p{
+    margin: 25px;
+    font-size: 25px;
+}
+header a{
+    padding: 14px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    border-radius: 20px;
+}
+
+
+
+
+main{
+    padding: 130px;
+}
+main h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: grey;
+}
+main div{
+    display: flex;
+}
+main div div{
+    width: 50%;
+    display: inline-block;
+    margin-right: 150px;
+}
+main div div p{
+    margin-bottom: 30px;
+}
+main div div p span{
+    font-weight: bold;
+}
+main div div a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7E459B;
+    border-radius: 20px;
+    border-color: #7E459B;
+    border-width: thin;
+    border-style: solid;
+    font-size: 12px;
+}
+main div div ul h4{
+    margin: 0;
+    margin-bottom:20px;
+}
+main div div ul li{
+    margin-left:25px ;
+}
+
+
+
+
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    background-color: #7E459B;
+    width: 170px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li a h3{
+    margin: 5px ;
+}
+footer div{
+    margin-top: 90px;
+    position: absolute;
+    margin-bottom: 0;
+    text-align: center;
+    height: 80px;
+    padding: 30px;
+    color: white;
+    background-color: #7E459B;
+    width: 100%;
+}
+footer div a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+
+/* Mobile */
+@media (max-width:420px){
+    header{
+        padding: 60px;
+    }
+    header h1{
+        font-size: 25px;
+    }
+    header p {
+        margin: 15px;
+        font-size: 15px;
+    }
+    header a{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+
+    main {
+        padding: 60px;
+    }
+    main h2 {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    main div div {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    main div div a {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    footer ul {
+        display: inline-block;
+        margin-left: 33%;
+    }
+    footer ul li{   
+        width: 130px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    footer div {
+        font-size: 12px;
+    }
+}
